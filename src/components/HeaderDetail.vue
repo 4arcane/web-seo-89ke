@@ -18,13 +18,9 @@ function navBarToggle() {
 
 <template>
   <div class="tt-l tt-full head_mc">
-    <!-- <a id="install_m" class="tt_l logo_m install_m" href="#" onclick="install_app()"><img width="800" height="220"
-        onclick="install_app()" src="../../head-download.png">
-    </a><a id="install_m_close_btn" href="#" @click="closeapp()" class="team-popup-close logo_m install_m">×</a> -->
-
     <div class="tt_l h-linem">
-      <a href="https://line.me/R/ti/p/@505cfgdl?ts=05091211&oat_content=url" target="_blank"><img width="140" height="46"
-          src="/public/img/button-lineadd.jpg"></a>
+      <a href="https://line.me/R/ti/p/@505cfgdl?ts=05091211&oat_content=url" target="_blank"><img width="140"
+          height="46" src="/public/img/button-lineadd.jpg"></a>
     </div>
   </div>
   <div class="tt-l tt-full">
@@ -59,16 +55,14 @@ function navBarToggle() {
                       </li>
                       <li id="menu-item-162"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-162 wp-menu-img wp-menu-img-before">
-                        <a
-                          href="/คาสิโนออนไลน์">
+                        <a href="/คาสิโนออนไลน์">
                           <img src="/public/img/i3.png" alt="i3.png" heigth="25px" width="25px">
                           <span>คาสิโน</span>
                         </a>
                       </li>
                       <li id="menu-item-163"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-163 wp-menu-img wp-menu-img-before">
-                        <a
-                          href="/แทงบอลออนไลน์">
+                        <a href="/แทงบอลออนไลน์">
                           <img src="/public/img/i2.png" alt="i2.png" heigth="25px" width="25px">
                           <span>แทงบอล</span>
                         </a>
@@ -82,16 +76,14 @@ function navBarToggle() {
                       </li>
                       <li id="menu-item-174"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-174 wp-menu-img wp-menu-img-before">
-                        <a
-                          href="/เกมพนันออนไลน์">
+                        <a href="/เกมพนันออนไลน์">
                           <img src="/public/img/i8.png" alt="i8.png" heigth="25px" width="25px">
                           <span>เกมพนันออนไลน์</span>
                         </a>
                       </li>
                       <li id="menu-item-176"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-176 wp-menu-img wp-menu-img-before">
-                        <a
-                          href="/สล็อตออนไลน์">
+                        <a href="/สล็อตออนไลน์">
                           <img src="/public/img/i5.png" alt="i5.png" heigth="25px" width="25px">
                           <span>สล็อตออนไลน์</span>
                         </a>
@@ -124,7 +116,9 @@ function navBarToggle() {
               <div class="tt_r b-main_menu">
                 <div class="tt_r btn_main_menu">
                   <div class="nav_b">
-                    <a title="เข้าสู่ระบบ" href="https://app.123dic.link/89ke1/login?openExternalBrowser=1">เข้าสู่ระบบ</a></div>
+                    <a title="เข้าสู่ระบบ"
+                      href="https://app.123dic.link/89ke1/login?openExternalBrowser=1">เข้าสู่ระบบ</a>
+                  </div>
                 </div>
                 <a class="tt_r b_regis" title="สมัครสมาชิก" href="https://aff.89ke.net/aff/shhj6139n4/signup">
                   สมัครสมาชิก </a>
