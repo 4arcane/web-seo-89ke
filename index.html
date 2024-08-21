@@ -27,8 +27,6 @@
       media="all"
     />
     <link rel="stylesheet" id="css" href="/public/css/hover.css" type="text/css" media="all" />
-    <!-- <script type="text/javascript" src="/public/js/jquery-1.10.2.min.js"></script> -->
-    <!-- <script type="text/javascript" src="/public/js/sweetalert2.all.js"></script> -->
     <style>
       @charset "UTF-8";
       @-webkit-keyframes swal2-show {
@@ -1703,124 +1701,6 @@
 
     <div id="overlay" class="overlay"></div>
     <script type="module" src="/src/main.js"></script>
-    <script type="text/javascript">
-      news_()
-      function news_() {
-        var news = 'false'
-
-        if (news == 'false' || news == '') {
-          return false
-        }
-
-        news = ''
-        var news_imgs = ''
-
-        news = news.split('|')
-
-        var wrapper = document.createElement('div')
-        wrapper.innerHTML = news[1]
-
-        setTimeout(function () {
-          swal.fire({
-            title: news[0],
-            imageUrl: news_imgs,
-            icon: news_imgs,
-            content: wrapper,
-            animation: true
-          })
-
-          $('.swal2-content').html(news[1])
-          $('.swal2-title').css('color', 'red')
-        }, 1000)
-      }
-    </script>
-    <script>
-      let deferredPrompt
-      window.addEventListener('beforeinstallprompt', (e) => {
-        // Prevent Chrome 67 and earlier from automatically showing the prompt
-        e.preventDefault()
-        // Stash the event so it can be triggered later.
-        deferredPrompt = e
-        // Update UI to notify the user they can add to home screen
-      })
-
-      function iOS_() {
-        return (
-          [
-            'iPad Simulator',
-            'iPhone Simulator',
-            'iPod Simulator',
-            'iPad',
-            'iPhone',
-            'iPod'
-          ].includes(navigator.platform) ||
-          // iPad on iOS 13 detection
-          (navigator.userAgent.includes('Mac') && 'ontouchend' in document)
-        )
-      }
-
-      function Chrome() {
-        var ua = navigator.userAgent.toLowerCase()
-        if (ua.indexOf('safari') != -1) {
-          if (ua.indexOf('chrome') > -1) {
-            return true // Chrome
-          } else {
-            return false // Safari
-          }
-        }
-
-        if (ua.indexOf('chrome') > -1) {
-          return true // Chrome
-        }
-
-        return false
-      }
-
-      function detectBrowser() {
-        if ((navigator.userAgent.indexOf('Opera') || navigator.userAgent.indexOf('OPR')) != -1) {
-          return 'Opera'
-        } else if (navigator.userAgent.indexOf('Line') != -1) {
-          return 'Chrome'
-        } else if (navigator.userAgent.indexOf('CriOS') != -1) {
-          return 'Chrome'
-        } else if (navigator.userAgent.indexOf('Chrome') != -1) {
-          return 'Chrome'
-        } else if (navigator.userAgent.indexOf('Safari') != -1) {
-          return 'Safari'
-        } else if (navigator.userAgent.indexOf('Firefox') != -1) {
-          return 'Firefox'
-        } else if (navigator.userAgent.indexOf('MSIE') != -1 || !!document.documentMode == true) {
-          return 'IE' //crap
-        } else {
-          return 'Unknown'
-        }
-      }
-
-      function install_app() {
-        var isIos = iOS_()
-        var b = detectBrowser()
-        IsChrome = false
-        if (b == 'Chrome') {
-          IsChrome = true
-        }
-
-        if (IsChrome) {
-          if (isIos) {
-            $('#overlay_a').show()
-            $('.install_web_app').html('โปรดใช้ safari เพื่อ download APP')
-            $('#popup').show()
-          } else {
-            deferredPrompt.prompt()
-          }
-        } else {
-          $('#overlay_a').show()
-          $('#popup').show()
-        }
-      }
-
-      //$('#overlay_a').show();
-      //$('#popup').show();
-    </script>
     <script>
       let overlay = document.getElementById('overlay')
 
@@ -1832,6 +1712,5 @@
         })
       })
     </script>
-    <!-- <script type="text/javascript" src="/public/js/owl.carousel.min.js"></script> -->
   </body>
 </html>
