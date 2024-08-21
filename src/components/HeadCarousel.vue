@@ -1,11 +1,14 @@
 <script setup>
 import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Navigation } from 'vue3-carousel'
+import slide1 from '/public/img/slide1.png';
+import slide2 from '/public/img/slide2.png';
+import slide3 from '/public/img/slide3.png';
 
 const slides = [
-    { id: '1', src: '/public/img/Image_01.png' },
-    { id: '2', src: '/public/img/Image_02.png' },
-    { id: '3', src: '/public/img/Image_03.png' },
+    { id: '1', src: slide1 },
+    { id: '2', src: slide2 },
+    { id: '3', src: slide3 },
 ]
 
 </script>
@@ -17,7 +20,6 @@ const slides = [
                 <img v-bind:src="slide.src" alt="">
             </div>
         </Slide>
-
         <template #addons>
             <Navigation />
             <!-- <Pagination /> -->
