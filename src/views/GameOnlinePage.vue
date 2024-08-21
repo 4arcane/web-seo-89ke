@@ -51,7 +51,7 @@
                             </div>
                         </div>
                         <div class="col-lg-5 col-12 text-center">
-                            <img style="height: 600px;" src="/public/img/Women_Model/Model_04.png" class="img-fluid">
+                            <img style="height: 600px;" src="/public/img/Model_04.png" class="img-fluid">
                         </div>
                     </div>
                     <div class="row mt-3 pb-3">
