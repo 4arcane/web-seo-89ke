@@ -1709,6 +1709,7 @@
         overlay.classList.forEach((className) => {
           if (className == 'active') {
             overlay.classList.remove('active')
+            document.getElementById('tt_ct_nav').classList.remove('tt_open')
           }
         })
       })
