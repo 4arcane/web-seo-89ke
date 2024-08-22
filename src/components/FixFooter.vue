@@ -18,11 +18,11 @@
                         </span>
                         <strong>โปรโมชั่น</strong>
                 </a>
-                <a class=" " href="/เกมออนไลน์">
+                <a class=" " href="/เกมพนันออนไลน์">
                         <span class="link_ico ico_4">
                                 <i class="fas fa-dollar-sign"></i>
                         </span> 
-                        <strong>เกมออนไลน์</strong>
+                        <strong>เกมพนันออนไลน์</strong>
                 </a>
                 <a class="last" href="/ติดต่อเรา">
                         <span class="link_ico ico_5">

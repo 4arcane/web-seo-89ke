@@ -1,3 +1,43 @@
+<script setup>
+import 'vue3-carousel/dist/carousel.css'
+import { Carousel, Slide, Navigation } from 'vue3-carousel'
+import b1 from "/public/img/b1.jpg"
+import b2 from "/public/img/b2.jpg"
+import b3 from "/public/img/b3.jpg"
+import b4 from "/public/img/b4.jpg"
+import b5 from "/public/img/b5.jpg"
+
+const slides = [
+    { id: '1', src: b1 },
+    { id: '2', src: b2 },
+    { id: '3', src: b3 },
+    { id: '3', src: b4 },
+    { id: '3', src: b5 },
+]
+
+const settings = {
+    itemsToShow: 5,
+    snapAlign: 'center',
+}
+// breakpoints are mobile first
+// any settings not specified will fallback to the carousel settings
+const breakpoints = {
+    500: {
+        itemsToShow: 2,
+        snapAlign: 'center',
+    },
+    700: {
+        itemsToShow: 3,
+        snapAlign: 'start',
+    },
+    1024: {
+        itemsToShow: 5,
+        snapAlign: 'start',
+    },
+}
+
+</script>
+
 <template>
     <!-- <link rel="stylesheet" id="css" href="/public/css/bootstrap.min.css" type="text/css" media="all" /> -->
     <div class="tt_l tt_full  bg_3">
@@ -6,245 +46,24 @@
                 <h2 class="tt_l tt_full  h_slot1">"ศูนย์รวมเว็บพนันออนไลน์ ที่ยิ่งใหญ่ที่สุดในประเทศ"</h2>
                 <div class="tt_l tt_full arhx"></div>
                 <div class="tt_l tt_full slide_b">
-                    <div class="owl-carousel owl-theme owl-loaded owl-drag">
-                        <div class="owl-stage-outer">
-                            <div class="owl-stage"
-                                style="transform: translate3d(-1856px, 0px, 0px); transition: 0.25s; width: 3480px;">
-                                <div class="owl-item cloned" style="width: 222px; margin-right: 10px;">
-                                    <div class="item">
-                                        <div class="list_p4xx  Parent zoomIn animated"
-                                            style="visibility: visible; animation-name: zoomIn;">
-                                            <a href="" title="Casino">
-                                                <figure class="imghvr-fold-down">
-                                                    <img src="/public/img/b1.jpg">
-                                                    <figcaption>
-                                                        <img src="/public/img/b1.jpg">
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned" style="width: 222px; margin-right: 10px;">
-                                    <div class="item">
-                                        <div class="list_p4xx  Parent zoomIn animated"
-                                            style="visibility: visible; animation-name: zoomIn;">
-                                            <a href="" title="Sport">
-                                                <figure class="imghvr-fold-down">
-                                                    <img src="/public/img/b2.jpg">
-                                                    <figcaption>
-                                                        <img src="/public/img/b2.jpg">
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned" style="width: 222px; margin-right: 10px;">
-                                    <div class="item">
-                                        <div class="list_p4xx  Parent zoomIn animated"
-                                            style="visibility: visible; animation-name: zoomIn;">
-                                            <a href="" title="Slot">
-                                                <figure class="imghvr-fold-down">
-                                                    <img src="/public/img/b3.jpg">
-                                                    <figcaption>
-                                                        <img src="/public/img/b3.jpg">
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned" style="width: 222px; margin-right: 10px;">
-                                    <div class="item">
-                                        <div class="list_p4xx  Parent zoomIn animated"
-                                            style="visibility: visible; animation-name: zoomIn;">
-                                            <a href="" title="Game">
-                                                <figure class="imghvr-fold-down">
-                                                    <img src="/public/img/b4.jpg">
-                                                    <figcaption>
-                                                        <img src="/public/img/b4.jpg">
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned" style="width: 222px; margin-right: 10px;">
-                                    <div class="item">
-                                        <div class="list_p4xx  Parent zoomIn animated"
-                                            style="visibility: visible; animation-name: zoomIn;">
-                                            <a href="" title="Lotto">
-                                                <figure class="imghvr-fold-down">
-                                                    <img src="/public/img/b5.jpg">
-                                                    <figcaption>
-                                                        <img src="/public/img/b5.jpg">
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item" style="width: 222px; margin-right: 10px;">
-                                    <div class="item">
-                                        <div class="list_p4xx  Parent zoomIn animated"
-                                            style="visibility: visible; animation-name: zoomIn;">
-                                            <a href="" title="Casino">
-                                                <figure class="imghvr-fold-down">
-                                                    <img src="/public/img/b1.jpg">
-                                                    <figcaption>
-                                                        <img src="/public/img/b1.jpg">
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item" style="width: 222px; margin-right: 10px;">
-                                    <div class="item">
-                                        <div class="list_p4xx  Parent zoomIn animated"
-                                            style="visibility: visible; animation-name: zoomIn;">
-                                            <a href="" title="Sport">
-                                                <figure class="imghvr-fold-down">
-                                                    <img src="/public/img/b2.jpg">
-                                                    <figcaption>
-                                                        <img src="/public/img/b2.jpg">
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item" style="width: 222px; margin-right: 10px;">
-                                    <div class="item">
-                                        <div class="list_p4xx  Parent zoomIn animated"
-                                            style="visibility: visible; animation-name: zoomIn;">
-                                            <a href="" title="Slot">
-                                                <figure class="imghvr-fold-down">
-                                                    <img src="/public/img/b3.jpg">
-                                                    <figcaption>
-                                                        <img src="/public/img/b3.jpg">
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item active" style="width: 222px; margin-right: 10px;">
-                                    <div class="item">
-                                        <div class="list_p4xx  Parent zoomIn animated"
-                                            style="visibility: visible; animation-name: zoomIn;">
-                                            <a href="" title="Game">
-                                                <figure class="imghvr-fold-down">
-                                                    <img src="/public/img/b4.jpg">
-                                                    <figcaption>
-                                                        <img src="/public/img/b4.jpg">
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item active" style="width: 222px; margin-right: 10px;">
-                                    <div class="item">
-                                        <div class="list_p4xx  Parent zoomIn animated"
-                                            style="visibility: visible; animation-name: zoomIn;">
-                                            <a href="" title="Lotto">
-                                                <figure class="imghvr-fold-down">
-                                                    <img src="/public/img/b5.jpg">
-                                                    <figcaption>
-                                                        <img src="/public/img/b5.jpg">
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned active" style="width: 222px; margin-right: 10px;">
-                                    <div class="item">
-                                        <div class="list_p4xx  Parent zoomIn animated"
-                                            style="visibility: visible; animation-name: zoomIn;">
-                                            <a href="" title="Casino">
-                                                <figure class="imghvr-fold-down">
-                                                    <img src="/public/img/b1.jpg">
-                                                    <figcaption>
-                                                        <img src="/public/img/b1.jpg">
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned active" style="width: 222px; margin-right: 10px;">
-                                    <div class="item">
-                                        <div class="list_p4xx  Parent zoomIn animated"
-                                            style="visibility: visible; animation-name: zoomIn;">
-                                            <a href="" title="Sport">
-                                                <figure class="imghvr-fold-down">
-                                                    <img src="/public/img/b2.jpg">
-                                                    <figcaption>
-                                                        <img src="/public/img/b2.jpg">
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned active" style="width: 222px; margin-right: 10px;">
-                                    <div class="item">
-                                        <div class="list_p4xx  Parent zoomIn animated"
-                                            style="visibility: visible; animation-name: zoomIn;">
-                                            <a href="" title="Slot">
-                                                <figure class="imghvr-fold-down">
-                                                    <img src="/public/img/b3.jpg">
-                                                    <figcaption>
-                                                        <img src="/public/img/b3.jpg">
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned" style="width: 222px; margin-right: 10px;">
-                                    <div class="item">
-                                        <div class="list_p4xx  Parent zoomIn animated"
-                                            style="visibility: visible; animation-name: zoomIn;">
-                                            <a href="" title="Game">
-                                                <figure class="imghvr-fold-down">
-                                                    <img src="/public/img/b4.jpg">
-                                                    <figcaption>
-                                                        <img src="/public/img/b4.jpg">
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned" style="width: 222px; margin-right: 10px;">
-                                    <div class="item">
-                                        <div class="list_p4xx  Parent zoomIn animated"
-                                            style="visibility: visible; animation-name: zoomIn;">
-                                            <a href="" title="Lotto">
-                                                <figure class="imghvr-fold-down">
-                                                    <img src="/public/img/b5.jpg">
-                                                    <figcaption>
-                                                        <img src="/public/img/b5.jpg">
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
+                    <Carousel :items-to-show="5" :wrap-around="true" v-bind="settings" :breakpoints="breakpoints"
+                        class="mt-10">
+                        <Slide v-for="slide in slides" :key="slide.id">
+                            <div class="carousel__item card-slide-img">
+                                <figure class="imghvr-fold-down">
+                                    <img v-bind:src="slide.src">
+                                    <figcaption>
+                                        <img v-bind:src="slide.src">
+                                    </figcaption>
+                                </figure>
                             </div>
-                        </div>
-                        <div class="owl-nav disabled">
-                            <div class="owl-prev"><i class="fas fa-chevron-left"></i></div>
-                            <div class="owl-next"><i class="fas fa-chevron-right"></i></div>
-                        </div>
-                        <div class="owl-dots disabled">
-                            <div class="owl-dot active"><span></span></div>
-                        </div>
-                    </div>
+                        </Slide>
+
+                        <template #addons>
+                            <Navigation />
+                            <!-- <Pagination /> -->
+                        </template>
+                    </Carousel>
                 </div>
                 <a class="tt_l tt_full tt_b1x" target="_blank" href=""><img src="/public/img/brand.jpg"></a>
             </div>
@@ -278,7 +97,8 @@
                             <strong><span style="color: #ff0000;">89KE
                                 </span></strong>สามารถเข้าถึงและเล่นเกมทุกประเภทได้ในที่เดียว
                             ไม่จำเป็นต้องเปลี่ยนไปเล่นที่เว็บไซต์อื่นๆ อีกต่อไป <strong><span
-                                    style="color: #ff0000;">89KE </span></strong> ทางเข้า
+                                    style="color: #ff0000;">89KE
+                                </span></strong> ทางเข้า
                             ที่สะดวกและปลอดภัย ทำให้ผู้เล่นสามารถเข้าถึงและเพลิดเพลินกับการเดิมพันได้อย่างง่ายดาย
                             ทั้งบนคอมพิวเตอร์และอุปกรณ์มือถือ ทำให้ <br><span style="color: #ff0000;"><strong>89KE
                                 </strong></span>เป็นทางเลือกที่เหนือกว่าในวงการพนันออนไลน์ทั้งหมด
@@ -324,8 +144,8 @@
                                 style="color: #ff0000;"><strong>Wallet</strong></span>
                             นั้นเป็นประสบการณ์ที่น่าตื่นเต้นและสนุกสนานสำหรับผู้ที่ชื่นชอบการเดิมพันออนไลน์
                             ด้วยความหลากหลายของเกมที่ทันสมัยและบริการที่เป็นเลิศ <strong><span
-                                    style="color: #ff0000;">89KE </span></strong><span
-                                style="color: #ff0000;"><strong>Wallet</strong></span>
+                                    style="color: #ff0000;">89KE
+                                </span></strong><span style="color: #ff0000;"><strong>Wallet</strong></span>
                             ได้กลายเป็นหนึ่งในเว็บพนันออนไลน์ที่เป็นแหล่งการเดิมพันที่ดีที่สุดในวงการนี้
                             ความนิยมและการเติบโตอย่างรวดเร็วของมันทำให้มันเป็นที่รู้จักและเป็นที่ยอมรับในหมู่ผู้เล่นการพนันออนไลน์
                             89KE วอเล็ต นำเสนอเกมที่หลากหลาย ทั้งกีฬาออนไลน์, คาสิโนสด, สล็อต และเกมอื่นๆ
@@ -642,8 +462,41 @@
     </div>
 </template>
 
-<script>
 
-</script>
+<style>
+.carousel__item {
+    min-height: auto;
+    width: 100%;
+    background-color: transparent;
+    color: var(--vc-clr-white);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-<style></style>
+.carousel__item img {
+    width: 100%;
+    
+}
+
+.card-slide-img {
+    padding: 5px;
+}
+
+.card-slide-img img {
+    border-radius: 10px;
+}
+
+.carousel__slide {}
+
+.carousel__prev,
+.carousel__next {
+    box-sizing: content-box;
+    /* border: 5px solid white; */
+}
+
+.carousel__icon {
+    fill: white;
+}
+</style>

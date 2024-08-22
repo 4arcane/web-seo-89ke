@@ -42,11 +42,11 @@ const slides = [
 
 .carousel__item img {
     width: 100%;
-    height: 500px;
+    height: auto;
 }
 
 .carousel__slide {
-    height: 500px;
+    height: auto;
 }
 
 .carousel__prev,
