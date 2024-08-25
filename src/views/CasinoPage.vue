@@ -8,10 +8,8 @@
                 <div class="thaitheme_read">
                     <h1 style="text-align: center;"><strong>เว็บพนัน <span style="color: #ff0000;">89KE</span> CASINO
                         </strong><strong>บาคาร่า รูเล็ต เสือมังกร</strong></h1>
-                    <p><img decoding="async" class="aligncenter wp-image-231 size-large"
-                            src="/public/img/ufa-1024x453.jpg" alt="" width="1024" height="453"
-                            srcset="/public/img/ufa-1024x453.jpg 1024w, /public/img/ufa-1024x453.jpg 300w, /public/img/ufa-1024x453.jpg 768w, /public/img/ufa-1024x453.jpg 1276w"
-                            sizes="(max-width: 1024px) 100vw, 1024px"></p>
+                    <p>
+                    </p>
                     <p>&nbsp;</p>
                     <p>เข้ามาสมัครสมาชิกกับเว็บเดียวครบจบแน่นอน
                         ในเรื่องของการหากำไรรายได้เสริมจากการเล่นเกมออนไลน์ไม่ว่าจะเป็น บาคาร่าออนไลน์ ไฮโลออนไลน์&nbsp;

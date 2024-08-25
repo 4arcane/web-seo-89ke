@@ -6,7 +6,7 @@
             </div>
             <div class="tt_l tt_full tt_content bg">
                 <div class="thaitheme_read">
-                    <h2 style="text-align: center;"><strong>เกมยิงปลา UFA </strong><strong>เว็บตรงไม่มีขั้นต่ำ
+                    <h2 style="text-align: center;"><strong>เกมยิงปลา </strong><strong>เว็บตรงไม่มีขั้นต่ำ
                             โบนัสแตกบ่อย เล่นสนุกลื่นไหลสุด ๆ</strong></h2>
                     <p>
                         <img decoding="async" class="aligncenter wp-image-603 size-full" src="/public/img/1.jpg" alt=""
@@ -37,7 +37,7 @@
                         ทั้งยังใช้เวลาในการสมัครสมาชิกไม่นานก็สามารถเข้าสู่ระบบ พร้อมสัมผัสกับทุกความสนุก
                         และความคุ้มค่าได้ทันที เพราะฉะนั้นแค่คุณเปิดใจ
                         ไม่ต้องมีประสบการณ์เดิมพันมาก่อนก็เล่นเกมยิงปลาออนไลน์กับ <span
-                            style="color: #ff0000;"><strong>UFA</strong></span>
+                            style="color: #ff0000;"><strong></strong></span>
                         ได้ไม่ยาก
                     </p>
                     <p><strong>ทดลองเล่นเกมยิงปลา <span style="color: #ff0000;">
@@ -85,12 +85,11 @@
                         </a>
                     </p>
                     <p><strong>เกมยิงปลา <span style="color: #ff0000;">
-                                UFA
                             </span>
                         </strong><strong>น่าสนใจอย่างไรทำไมจึงเป็นที่นิยม </strong>
                     </p>
                     <p>เกมยิงปลาออนไลน์จาก <span
-                            style="text-decoration: underline;"><strong>สายตรงจากUFA</strong></span>
+                            style="text-decoration: underline;"><strong></strong></span>
 
                         เป็นอีกหนึ่งตัวเลือกในการเดิมพันของผู้เล่นจำนวนมาก เพราะทุกคนต่างทราบดีว่าเดิมพันเกมยิงปลาจาก
                         <strong>เว็บตรง</strong> น่าสนใจกว่าที่คิด
